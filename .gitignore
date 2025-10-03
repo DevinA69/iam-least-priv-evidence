@@ -1,5 +1,7 @@
 .venv/
 __pycache__/
+
+# Ignore generated evidence artifacts only (not all markdown)
 evidence/
-*.csv
-*.md
+evidence/*.csv
+evidence/*.md
